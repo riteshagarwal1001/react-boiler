@@ -1,0 +1,104 @@
+.react-datepicker{
+    border:none;
+    box-shadow: $shadow;
+}
+.react-datepicker__day--outside-month {
+    color: #6c757d;
+  }
+ 
+  
+.react-datepicker-wrapper {
+    width: 100%;
+    input{
+        &:hover{
+            box-shadow: $shadow;
+        }
+    }
+}
+.react-datepicker__day--today{
+    border-radius: 50% !important;
+    background-color: #f0f0f0;
+}
+.react-datepicker__day--selected, .react-datepicker__day--keyboard-selected{
+    border-radius: 50% !important;
+    background-color: $dark-blue;
+    color:#fff
+}
+.react-datepicker__header {
+    color: $dark-blue;
+    background: $light-blue;
+    border:none;
+}
+.react-datepicker__current-month{
+    font-weight: normal;
+    padding: 0.3rem;
+}
+.react-datepicker__navigation{
+    border:none;
+    border-top: 2px solid $dark-blue;
+    border-left: 2px solid $dark-blue;
+    height: 0.5rem;
+    width: 0.5rem;
+    top:1.3rem;
+    &:focus{
+        outline:none;
+    }
+}
+.react-datepicker__day-name{
+    width: 2rem;
+    height: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.react-datepicker__day{
+    width: 2rem;
+    height: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        border-radius: 50%;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+.react-datepicker__navigation--next:hover, .react-datepicker__navigation--previous:hover{
+    border-color:$dark-blue
+}
+.react-datepicker__navigation--previous {
+    transform: rotate(-45deg);
+    left: 1.2rem;
+}
+.react-datepicker__navigation--next {
+    transform: rotate(135deg);
+    right: 1.2rem;
+}
+.react-datepicker__day-names {
+    background: #fff;
+    margin-top: 0.5rem;
+    .react-datepicker__day-name {
+        color: #6c757d;
+    }
+}
+.react-datepicker__month{
+    margin-top: 0;
+}
+.react-datepicker__triangle{
+    display: none;
+}
+.react-datepicker-popper{
+    margin: 0 !important;
+}
+.datepicker {
+    padding: 0.8rem;
+    color: #6c757d;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    width: 100%;
+    &:focus{
+        outline: 0;
+    }
+}

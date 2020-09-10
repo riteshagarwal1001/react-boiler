@@ -1,0 +1,78 @@
+.userprofile-wrap {
+  border-radius: 0.5rem;
+  background: $white;
+  box-shadow: $shadow;
+  .profile-heading {
+    color: $sky-blue2;
+    font-weight: 500;
+  }
+  .head-text {
+    color: $dark-blue;
+    .form-control {
+      background: #f2fefe;
+      padding: 0.2rem 0.8rem;
+      &:hover {
+        border-color: #707070;
+        box-shadow: $shadow;
+      }
+      &:focus {
+        border-color: $blue;
+        color: $blue;
+      }
+    }
+  }
+  Button {
+    border-color: $blue;
+    color: $blue;
+    background: none;
+    &.link {
+      border-style: none !important;
+      border-radius: 0;
+      padding: 0;
+      color: $blue;
+      background: none;
+      border-bottom: 1px solid $blue !important;
+      &:hover {
+        background: none;
+      }
+    }
+    &:hover {
+      background: #f0f8ff;
+      border-color: $blue;
+      color: $blue;
+    }
+  }
+}
+
+.change-password {
+  .modal-header {
+    border-bottom: none;
+    margin-top: 1rem;
+  }
+  .modal-body {
+    .heading {
+      text-align: center;
+      color: #11365a;
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+    form{
+      max-width: 350px;
+      margin: auto;
+    }    
+  }
+  Button {
+    border-color: $blue;
+    color: $blue;
+    background: none;
+    min-width: 8rem;
+    &:hover {
+      background: #f0f8ff;
+      border-color: $blue;
+      color: $blue;
+    }
+  }
+  @media (min-width: 576px) {
+    max-width: 750px;
+  }
+}

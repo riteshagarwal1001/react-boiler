@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_593" data-name="Group 593" transform="translate(-1208 -18)">
+    <g id="Group_576" data-name="Group 576" transform="translate(914 -5076)" opacity="0.7">
+      <path id="baseline-notifications-24px" d="M12,22a2.006,2.006,0,0,0,2-2H10A2,2,0,0,0,12,22Zm6-6V11c0-3.07-1.64-5.64-4.5-6.32V4a1.5,1.5,0,0,0-3,0v.68C7.63,5.36,6,7.92,6,11v5L4,18v1H20V18Z" transform="translate(294 5093.5)" fill="#666"/>
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="24" height="24" transform="translate(294 5094)" fill="none"/>
+    </g>
+    <circle id="Ellipse_96" data-name="Ellipse 96" cx="4.5" cy="4.5" r="4.5" transform="translate(1222 20)" fill="#ff9831"/>
+  </g>
+</svg>

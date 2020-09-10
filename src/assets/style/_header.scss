@@ -1,0 +1,16 @@
+header {
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.16);
+    z-index: 1;
+    top:0;
+    .logo {
+        img {
+            height: 1.9rem;
+        }
+    }
+    .notification-icon{
+        position: absolute;
+        right: 1rem;
+        top:50%;
+        transform: translateY(-50%);
+    }
+}

@@ -1,0 +1,3 @@
+**/*.scss
+.gitignore
+**/src/assets/**/*
